@@ -1,8 +1,19 @@
-'''Write this Code in file with .py extension'''
+
+## CodeAx
+
+ - [Telegram](https://t.me/avekgaming)
+ - [instagram](https://instagram.com/codeax1?utm_medium=copy_link)
+ - [Youtube](https://youtube.com/channel/UC-Q6ZcOtcx1gZ9fI5MDDt3w)
+
+
+## Deployment
+
+Import python library named pytube from terminal or cmd 
+
+```bash
+#Write this Code in file with .py extension
 #Just Copy Link of any Youtube Video Input......
 #IF Output is Showing Error Than -Go To Terminal And Just type "pip install pytube" it will Install Pytube module 
-
-
 from pytube import YouTube
 while(True):
     link = input("Enter The Link or press (q) to Quit: ")
@@ -29,3 +40,6 @@ while(True):
             print("Ok.....")
     except:
         print('Connection error')
+```
+
+
