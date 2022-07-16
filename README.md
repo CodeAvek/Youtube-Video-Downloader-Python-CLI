@@ -15,9 +15,13 @@ Import python library named pytube from terminal or cmd
 #Write this Code in file with .py extension
 #Just Copy Link of any Youtube Video Input......
 #IF Output is Showing Error Than -Go To Terminal And Just type "pip install pytube" it will Install Pytube module 
+#Write this Code in file with .py extension
+#Just Copy Link of any Youtube Video Input......
+#IF Output is Showing Error Than -Go To Terminal And Just type "pip install pytube" it will Install Pytube module 
 import os
 os.system('pip install pyfiglet')
 os.system('pip install pytube')
+import pyfiglet
 os.system('clear')
 
 R = "\033[1;31m"
@@ -44,7 +48,7 @@ while(True):
     try:
         yt = YouTube(link,on_progress_callback=on_progress)
     
-        print("Guys Lets Get Started!!!!!!!!")
+        print(Y+"Guys Lets Get Started!!!!!!!!")
         print("Title:",yt.title)
         print("View:",yt.views)
         print("Length:",yt.length)
