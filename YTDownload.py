@@ -14,6 +14,24 @@ Import python library named pytube from terminal or cmd
 #Write this Code in file with .py extension
 #Just Copy Link of any Youtube Video Input......
 #IF Output is Showing Error Than -Go To Terminal And Just type "pip install pytube" it will Install Pytube module 
+import os
+os.system('pip install pyfiglet')
+os.system('pip install pytube')
+os.system('clear')
+
+R = "\033[1;31m"
+G = "\033[1;32m"
+B = "\033[0;94m"
+Y = "\033[1;33m"
+nu = 0
+n = 0
+br = pyfiglet.figlet_format("CodeAx1")
+print(R+br)
+print(G+'''
+[Scraping Content From Website ]
+Coded By CodeAx1
+_________________________________________________''')
+import pyfiglet
 from pytube import YouTube
 while(True):
     link = input("Enter The Link or press (q) to Quit: ")
